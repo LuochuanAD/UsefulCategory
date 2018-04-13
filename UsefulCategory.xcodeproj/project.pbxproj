@@ -26,6 +26,7 @@
 		443BB70B20804CF6003BAB26 /* NSArray+CoveringMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6F820804CF6003BAB26 /* NSArray+CoveringMethod.m */; };
 		443BB70C20804CF6003BAB26 /* NSMutableArray+CoveringMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6FA20804CF6003BAB26 /* NSMutableArray+CoveringMethod.m */; };
 		443BB70E20804E3D003BAB26 /* demoExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 443BB70D20804E3D003BAB26 /* demoExample.png */; };
+		443BB71420805A12003BAB26 /* NSObject+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB71220805A12003BAB26 /* NSObject+helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,8 @@
 		443BB6F920804CF6003BAB26 /* NSMutableArray+CoveringMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+CoveringMethod.h"; sourceTree = "<group>"; };
 		443BB6FA20804CF6003BAB26 /* NSMutableArray+CoveringMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+CoveringMethod.m"; sourceTree = "<group>"; };
 		443BB70D20804E3D003BAB26 /* demoExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoExample.png; sourceTree = "<group>"; };
+		443BB71220805A12003BAB26 /* NSObject+helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+helper.m"; sourceTree = "<group>"; };
+		443BB71320805A12003BAB26 /* NSObject+helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+helper.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +149,8 @@
 				443BB6D720804CF5003BAB26 /* NSObject+PerformBlock.m */,
 				443BB6D820804CF5003BAB26 /* NSObject+Swizzle.h */,
 				443BB6D920804CF5003BAB26 /* NSObject+Swizzle.m */,
+				443BB71320805A12003BAB26 /* NSObject+helper.h */,
+				443BB71220805A12003BAB26 /* NSObject+helper.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 				443BB70A20804CF6003BAB26 /* UITabBar+CustomBadge.m in Sources */,
 				443BB70420804CF6003BAB26 /* NSDictionary+CoveringMethod.m in Sources */,
 				443BB70020804CF6003BAB26 /* NSObject+Swizzle.m in Sources */,
+				443BB71420805A12003BAB26 /* NSObject+helper.m in Sources */,
 				443BB6FF20804CF6003BAB26 /* NSObject+PerformBlock.m in Sources */,
 				443BB70B20804CF6003BAB26 /* NSArray+CoveringMethod.m in Sources */,
 				443BB6FB20804CF6003BAB26 /* UILabel+AutoResize.m in Sources */,
