@@ -7,7 +7,8 @@
 ***
 ***
 
-***详解*** CSDN blog地址为:https://blog.csdn.net/luochuanAD/article/details/79930273
+***详解*** CSDN blog地址为:https://blog.csdn.net/luochuanAD/article/details/79930273     
+            简书 blog地址为 https://www.jianshu.com/p/a578804e87de
 
 ***
 
