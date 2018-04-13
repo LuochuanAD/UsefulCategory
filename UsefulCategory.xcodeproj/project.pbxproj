@@ -7,12 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		443BB67520804876003BAB26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB67420804876003BAB26 /* AppDelegate.m */; };
-		443BB67820804876003BAB26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB67720804876003BAB26 /* ViewController.m */; };
-		443BB67B20804876003BAB26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443BB67920804876003BAB26 /* Main.storyboard */; };
-		443BB67D20804876003BAB26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443BB67C20804876003BAB26 /* Assets.xcassets */; };
-		443BB68020804876003BAB26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443BB67E20804876003BAB26 /* LaunchScreen.storyboard */; };
-		443BB68320804876003BAB26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB68220804876003BAB26 /* main.m */; };
 		443BB6FB20804CF6003BAB26 /* UILabel+AutoResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6CD20804CF4003BAB26 /* UILabel+AutoResize.m */; };
 		443BB6FC20804CF6003BAB26 /* UITableView+CellAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6D020804CF5003BAB26 /* UITableView+CellAnimation.m */; };
 		443BB6FD20804CF6003BAB26 /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6D320804CF5003BAB26 /* NSObject+Category.m */; };
@@ -35,15 +29,6 @@
 
 /* Begin PBXFileReference section */
 		443BB67020804876003BAB26 /* UsefulCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsefulCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		443BB67320804876003BAB26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		443BB67420804876003BAB26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		443BB67620804876003BAB26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		443BB67720804876003BAB26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		443BB67A20804876003BAB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		443BB67C20804876003BAB26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		443BB67F20804876003BAB26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		443BB68120804876003BAB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		443BB68220804876003BAB26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		443BB6CC20804CF4003BAB26 /* UILabel+AutoResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AutoResize.h"; sourceTree = "<group>"; };
 		443BB6CD20804CF4003BAB26 /* UILabel+AutoResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AutoResize.m"; sourceTree = "<group>"; };
 		443BB6CF20804CF5003BAB26 /* UITableView+CellAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+CellAnimation.h"; sourceTree = "<group>"; };
@@ -125,15 +110,6 @@
 				443BB6CB20804CF4003BAB26 /* UILable */,
 				443BB6F220804CF5003BAB26 /* UITabBar */,
 				443BB6F520804CF6003BAB26 /* UsefulHeader.h */,
-				443BB67320804876003BAB26 /* AppDelegate.h */,
-				443BB67420804876003BAB26 /* AppDelegate.m */,
-				443BB67620804876003BAB26 /* ViewController.h */,
-				443BB67720804876003BAB26 /* ViewController.m */,
-				443BB67920804876003BAB26 /* Main.storyboard */,
-				443BB67C20804876003BAB26 /* Assets.xcassets */,
-				443BB67E20804876003BAB26 /* LaunchScreen.storyboard */,
-				443BB68120804876003BAB26 /* Info.plist */,
-				443BB68220804876003BAB26 /* main.m */,
 			);
 			path = UsefulCategory;
 			sourceTree = "<group>";
@@ -309,9 +285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				443BB68020804876003BAB26 /* LaunchScreen.storyboard in Resources */,
-				443BB67D20804876003BAB26 /* Assets.xcassets in Resources */,
-				443BB67B20804876003BAB26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,14 +297,11 @@
 			files = (
 				443BB6FE20804CF6003BAB26 /* NSObject+ModelWithDictionary.m in Sources */,
 				443BB70520804CF6003BAB26 /* NSMutableDictionary+CoveringMethod.m in Sources */,
-				443BB67820804876003BAB26 /* ViewController.m in Sources */,
-				443BB68320804876003BAB26 /* main.m in Sources */,
 				443BB70A20804CF6003BAB26 /* UITabBar+CustomBadge.m in Sources */,
 				443BB70420804CF6003BAB26 /* NSDictionary+CoveringMethod.m in Sources */,
 				443BB70020804CF6003BAB26 /* NSObject+Swizzle.m in Sources */,
 				443BB6FF20804CF6003BAB26 /* NSObject+PerformBlock.m in Sources */,
 				443BB70B20804CF6003BAB26 /* NSArray+CoveringMethod.m in Sources */,
-				443BB67520804876003BAB26 /* AppDelegate.m in Sources */,
 				443BB6FB20804CF6003BAB26 /* UILabel+AutoResize.m in Sources */,
 				443BB70320804CF6003BAB26 /* NSData+Encryption.m in Sources */,
 				443BB6FC20804CF6003BAB26 /* UITableView+CellAnimation.m in Sources */,
@@ -347,25 +317,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		443BB67920804876003BAB26 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				443BB67A20804876003BAB26 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		443BB67E20804876003BAB26 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				443BB67F20804876003BAB26 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		443BB68420804876003BAB26 /* Debug */ = {
@@ -478,6 +429,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UsefulCategory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LuochuanAD.UsefulCategory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,6 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = UsefulCategory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LuochuanAD.UsefulCategory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
