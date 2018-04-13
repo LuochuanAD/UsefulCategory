@@ -25,8 +25,8 @@
 		443BB70A20804CF6003BAB26 /* UITabBar+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6F420804CF5003BAB26 /* UITabBar+CustomBadge.m */; };
 		443BB70B20804CF6003BAB26 /* NSArray+CoveringMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6F820804CF6003BAB26 /* NSArray+CoveringMethod.m */; };
 		443BB70C20804CF6003BAB26 /* NSMutableArray+CoveringMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6FA20804CF6003BAB26 /* NSMutableArray+CoveringMethod.m */; };
-		443BB70E20804E3D003BAB26 /* demoExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 443BB70D20804E3D003BAB26 /* demoExample.png */; };
 		443BB71420805A12003BAB26 /* NSObject+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB71220805A12003BAB26 /* NSObject+helper.m */; };
+		443BB71620805C63003BAB26 /* demoExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 443BB71520805C63003BAB26 /* demoExample.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,9 +68,9 @@
 		443BB6F820804CF6003BAB26 /* NSArray+CoveringMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CoveringMethod.m"; sourceTree = "<group>"; };
 		443BB6F920804CF6003BAB26 /* NSMutableArray+CoveringMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+CoveringMethod.h"; sourceTree = "<group>"; };
 		443BB6FA20804CF6003BAB26 /* NSMutableArray+CoveringMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+CoveringMethod.m"; sourceTree = "<group>"; };
-		443BB70D20804E3D003BAB26 /* demoExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoExample.png; sourceTree = "<group>"; };
 		443BB71220805A12003BAB26 /* NSObject+helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+helper.m"; sourceTree = "<group>"; };
 		443BB71320805A12003BAB26 /* NSObject+helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+helper.h"; sourceTree = "<group>"; };
+		443BB71520805C63003BAB26 /* demoExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoExample.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 				443BB6CB20804CF4003BAB26 /* UILable */,
 				443BB6F220804CF5003BAB26 /* UITabBar */,
 				443BB6F520804CF6003BAB26 /* UsefulHeader.h */,
-				443BB70D20804E3D003BAB26 /* demoExample.png */,
+				443BB71520805C63003BAB26 /* demoExample.png */,
 			);
 			path = UsefulCategory;
 			sourceTree = "<group>";
@@ -293,7 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				443BB70E20804E3D003BAB26 /* demoExample.png in Resources */,
+				443BB71620805C63003BAB26 /* demoExample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
