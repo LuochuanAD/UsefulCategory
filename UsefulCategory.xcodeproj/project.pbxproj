@@ -16,17 +16,14 @@
 		443BB70120804CF6003BAB26 /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6DC20804CF5003BAB26 /* UIButton+Category.m */; };
 		443BB70220804CF6003BAB26 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6DF20804CF5003BAB26 /* UIColor+Category.m */; };
 		443BB70320804CF6003BAB26 /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6E220804CF5003BAB26 /* NSData+Encryption.m */; };
-		443BB70420804CF6003BAB26 /* NSDictionary+CoveringMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6E520804CF5003BAB26 /* NSDictionary+CoveringMethod.m */; };
-		443BB70520804CF6003BAB26 /* NSMutableDictionary+CoveringMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6E720804CF5003BAB26 /* NSMutableDictionary+CoveringMethod.m */; };
 		443BB70620804CF6003BAB26 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6EA20804CF5003BAB26 /* UIImage+Category.m */; };
 		443BB70720804CF6003BAB26 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6ED20804CF5003BAB26 /* NSString+Category.m */; };
 		443BB70820804CF6003BAB26 /* NSString+Predicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6EF20804CF5003BAB26 /* NSString+Predicate.m */; };
 		443BB70920804CF6003BAB26 /* NSString+TimeStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6F120804CF5003BAB26 /* NSString+TimeStamp.m */; };
 		443BB70A20804CF6003BAB26 /* UITabBar+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6F420804CF5003BAB26 /* UITabBar+CustomBadge.m */; };
-		443BB70B20804CF6003BAB26 /* NSArray+CoveringMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6F820804CF6003BAB26 /* NSArray+CoveringMethod.m */; };
-		443BB70C20804CF6003BAB26 /* NSMutableArray+CoveringMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6FA20804CF6003BAB26 /* NSMutableArray+CoveringMethod.m */; };
 		443BB71420805A12003BAB26 /* NSObject+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB71220805A12003BAB26 /* NSObject+helper.m */; };
-		443BB71620805C63003BAB26 /* demoExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 443BB71520805C63003BAB26 /* demoExample.png */; };
+		443BB71920807DC3003BAB26 /* NSObjectSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB71820807DC3003BAB26 /* NSObjectSafe.m */; settings = {COMPILER_FLAGS = "-fon-objc-arc"; }; };
+		443BB75C20808B8B003BAB26 /* demoExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 443BB75B20808B8B003BAB26 /* demoExample.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,10 +46,6 @@
 		443BB6DF20804CF5003BAB26 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
 		443BB6E120804CF5003BAB26 /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
 		443BB6E220804CF5003BAB26 /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
-		443BB6E420804CF5003BAB26 /* NSDictionary+CoveringMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CoveringMethod.h"; sourceTree = "<group>"; };
-		443BB6E520804CF5003BAB26 /* NSDictionary+CoveringMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CoveringMethod.m"; sourceTree = "<group>"; };
-		443BB6E620804CF5003BAB26 /* NSMutableDictionary+CoveringMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+CoveringMethod.h"; sourceTree = "<group>"; };
-		443BB6E720804CF5003BAB26 /* NSMutableDictionary+CoveringMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+CoveringMethod.m"; sourceTree = "<group>"; };
 		443BB6E920804CF5003BAB26 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
 		443BB6EA20804CF5003BAB26 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
 		443BB6EC20804CF5003BAB26 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
@@ -64,13 +57,11 @@
 		443BB6F320804CF5003BAB26 /* UITabBar+CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+CustomBadge.h"; sourceTree = "<group>"; };
 		443BB6F420804CF5003BAB26 /* UITabBar+CustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+CustomBadge.m"; sourceTree = "<group>"; };
 		443BB6F520804CF6003BAB26 /* UsefulHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsefulHeader.h; sourceTree = "<group>"; };
-		443BB6F720804CF6003BAB26 /* NSArray+CoveringMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CoveringMethod.h"; sourceTree = "<group>"; };
-		443BB6F820804CF6003BAB26 /* NSArray+CoveringMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CoveringMethod.m"; sourceTree = "<group>"; };
-		443BB6F920804CF6003BAB26 /* NSMutableArray+CoveringMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+CoveringMethod.h"; sourceTree = "<group>"; };
-		443BB6FA20804CF6003BAB26 /* NSMutableArray+CoveringMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+CoveringMethod.m"; sourceTree = "<group>"; };
 		443BB71220805A12003BAB26 /* NSObject+helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+helper.m"; sourceTree = "<group>"; };
 		443BB71320805A12003BAB26 /* NSObject+helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+helper.h"; sourceTree = "<group>"; };
-		443BB71520805C63003BAB26 /* demoExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoExample.png; sourceTree = "<group>"; };
+		443BB71720807DC3003BAB26 /* NSObjectSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectSafe.h; sourceTree = "<group>"; };
+		443BB71820807DC3003BAB26 /* NSObjectSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectSafe.m; sourceTree = "<group>"; };
+		443BB75B20808B8B003BAB26 /* demoExample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoExample.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,19 +94,18 @@
 		443BB67220804876003BAB26 /* UsefulCategory */ = {
 			isa = PBXGroup;
 			children = (
-				443BB6F620804CF6003BAB26 /* NSArray */,
+				443BB71A208082E2003BAB26 /* NSObject(Safe) */,
+				443BB75A20808AE9003BAB26 /* UITableView */,
 				443BB6E020804CF5003BAB26 /* NSData */,
-				443BB6E320804CF5003BAB26 /* NSDictionary */,
 				443BB6D120804CF5003BAB26 /* NSObject */,
 				443BB6EB20804CF5003BAB26 /* NSString */,
-				443BB6CE20804CF5003BAB26 /* TableView */,
 				443BB6DA20804CF5003BAB26 /* UIButton */,
 				443BB6DD20804CF5003BAB26 /* UIColor */,
 				443BB6E820804CF5003BAB26 /* UIImage */,
 				443BB6CB20804CF4003BAB26 /* UILable */,
 				443BB6F220804CF5003BAB26 /* UITabBar */,
 				443BB6F520804CF6003BAB26 /* UsefulHeader.h */,
-				443BB71520805C63003BAB26 /* demoExample.png */,
+				443BB75B20808B8B003BAB26 /* demoExample.png */,
 			);
 			path = UsefulCategory;
 			sourceTree = "<group>";
@@ -127,15 +117,6 @@
 				443BB6CD20804CF4003BAB26 /* UILabel+AutoResize.m */,
 			);
 			path = UILable;
-			sourceTree = "<group>";
-		};
-		443BB6CE20804CF5003BAB26 /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				443BB6CF20804CF5003BAB26 /* UITableView+CellAnimation.h */,
-				443BB6D020804CF5003BAB26 /* UITableView+CellAnimation.m */,
-			);
-			path = TableView;
 			sourceTree = "<group>";
 		};
 		443BB6D120804CF5003BAB26 /* NSObject */ = {
@@ -182,17 +163,6 @@
 			path = NSData;
 			sourceTree = "<group>";
 		};
-		443BB6E320804CF5003BAB26 /* NSDictionary */ = {
-			isa = PBXGroup;
-			children = (
-				443BB6E420804CF5003BAB26 /* NSDictionary+CoveringMethod.h */,
-				443BB6E520804CF5003BAB26 /* NSDictionary+CoveringMethod.m */,
-				443BB6E620804CF5003BAB26 /* NSMutableDictionary+CoveringMethod.h */,
-				443BB6E720804CF5003BAB26 /* NSMutableDictionary+CoveringMethod.m */,
-			);
-			path = NSDictionary;
-			sourceTree = "<group>";
-		};
 		443BB6E820804CF5003BAB26 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,15 +194,22 @@
 			path = UITabBar;
 			sourceTree = "<group>";
 		};
-		443BB6F620804CF6003BAB26 /* NSArray */ = {
+		443BB71A208082E2003BAB26 /* NSObject(Safe) */ = {
 			isa = PBXGroup;
 			children = (
-				443BB6F720804CF6003BAB26 /* NSArray+CoveringMethod.h */,
-				443BB6F820804CF6003BAB26 /* NSArray+CoveringMethod.m */,
-				443BB6F920804CF6003BAB26 /* NSMutableArray+CoveringMethod.h */,
-				443BB6FA20804CF6003BAB26 /* NSMutableArray+CoveringMethod.m */,
+				443BB71720807DC3003BAB26 /* NSObjectSafe.h */,
+				443BB71820807DC3003BAB26 /* NSObjectSafe.m */,
 			);
-			path = NSArray;
+			path = "NSObject(Safe)";
+			sourceTree = "<group>";
+		};
+		443BB75A20808AE9003BAB26 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				443BB6CF20804CF5003BAB26 /* UITableView+CellAnimation.h */,
+				443BB6D020804CF5003BAB26 /* UITableView+CellAnimation.m */,
+			);
+			path = UITableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				443BB71620805C63003BAB26 /* demoExample.png in Resources */,
+				443BB75C20808B8B003BAB26 /* demoExample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,24 +282,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				443BB6FE20804CF6003BAB26 /* NSObject+ModelWithDictionary.m in Sources */,
-				443BB70520804CF6003BAB26 /* NSMutableDictionary+CoveringMethod.m in Sources */,
 				443BB70A20804CF6003BAB26 /* UITabBar+CustomBadge.m in Sources */,
-				443BB70420804CF6003BAB26 /* NSDictionary+CoveringMethod.m in Sources */,
 				443BB70020804CF6003BAB26 /* NSObject+Swizzle.m in Sources */,
 				443BB71420805A12003BAB26 /* NSObject+helper.m in Sources */,
 				443BB6FF20804CF6003BAB26 /* NSObject+PerformBlock.m in Sources */,
-				443BB70B20804CF6003BAB26 /* NSArray+CoveringMethod.m in Sources */,
 				443BB6FB20804CF6003BAB26 /* UILabel+AutoResize.m in Sources */,
 				443BB70320804CF6003BAB26 /* NSData+Encryption.m in Sources */,
 				443BB6FC20804CF6003BAB26 /* UITableView+CellAnimation.m in Sources */,
 				443BB6FD20804CF6003BAB26 /* NSObject+Category.m in Sources */,
+				443BB71920807DC3003BAB26 /* NSObjectSafe.m in Sources */,
 				443BB70120804CF6003BAB26 /* UIButton+Category.m in Sources */,
 				443BB70220804CF6003BAB26 /* UIColor+Category.m in Sources */,
 				443BB70920804CF6003BAB26 /* NSString+TimeStamp.m in Sources */,
 				443BB70820804CF6003BAB26 /* NSString+Predicate.m in Sources */,
 				443BB70620804CF6003BAB26 /* UIImage+Category.m in Sources */,
 				443BB70720804CF6003BAB26 /* NSString+Category.m in Sources */,
-				443BB70C20804CF6003BAB26 /* NSMutableArray+CoveringMethod.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
