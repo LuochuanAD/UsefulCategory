@@ -32,9 +32,9 @@
         return;
     }
     if ([object isKindOfClass:[NSNull class]]) {
-        [self setValue:@"" forKey:key];
+        [self safeSetValue:@"" forKey:key];
     }else{
-        [self setValue:object forKey:key];
+        [self safeSetValue:object forKey:key];
     }
 }
 

@@ -36,7 +36,7 @@
     if (index >= self.count) {
         return nil;
     } else {
-        return [self objectAtIndex:index];
+        return [self safeObjectAtIndex:index];
     }
 }
 
@@ -45,7 +45,7 @@
     if (anObject == nil) {
         return NSNotFound;
     } else {
-        return [self indexOfObject:anObject];
+        return [self safeIndexOfObject:anObject];
     }
 }
 
@@ -63,7 +63,7 @@
         return nil;
     }
     else {
-        return [self subarrayWithRange:range];
+        return [self safeSubarrayWithRange:range];
     }
 }
 

@@ -54,7 +54,7 @@
     }
     
     if (idx == self.count) {
-        [self addObject:obj];
+        [self safeAddObject:obj];
     } else {
         [self replaceObjectAtIndex:idx withObject:obj];
     }
@@ -65,7 +65,7 @@
     if (object == nil) {
         return;
     } else {
-        [self addObject:object];
+        [self safeAddObject:object];
     }
 }
 
@@ -76,7 +76,7 @@
     } else if (index > self.count) {
         return;
     } else {
-        [self insertObject:object atIndex:index];
+        [self safeInsertObject:object atIndex:index];
     }
 }
 
@@ -88,7 +88,7 @@
     } else if (indexs.count!=objects.count || firstIndex>objects.count) {
         return;
     } else {
-        [self insertObjects:objects atIndexes:indexs];
+        [self safeInsertObjects:objects atIndexes:indexs];
     }
 }
 
@@ -97,7 +97,7 @@
     if (index >= self.count) {
         return;
     } else {
-        [self removeObjectAtIndex:index];
+        [self safeRemoveObjectAtIndex:index];
     }
 }
 
@@ -108,7 +108,7 @@
     if (location + length > self.count) {
         return;
     } else {
-        [self removeObjectsInRange:range];
+        [self safeRemoveObjectsInRange:range];
     }
 }
 

@@ -39,14 +39,14 @@
         [self removeObjectForKey:key];
     }
     else {
-        [self setObject:obj forKey:key];
+        [self safeSetObject:obj forKeyedSubscript:key];
     }
 }
 
 - (void)safeSetObject:(id)aObj forKey:(id<NSCopying>)aKey
 {
     if (aObj && ![aObj isKindOfClass:[NSNull class]] && aKey) {
-        [self setObject:aObj forKey:aKey];
+        [self safeSetObject:aObj forKey:aKey];
     } else {
         return;
     }
@@ -55,7 +55,7 @@
 - (id)safeObjectForKey:(id<NSCopying>)aKey
 {
     if (aKey != nil) {
-        return [self objectForKey:aKey];
+        return [self safeObjectForKey:aKey];
     } else {
         return nil;
     }
