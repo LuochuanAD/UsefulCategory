@@ -14,14 +14,14 @@
  *  自动使用自定义的方法覆盖系统方法,防止崩溃,推荐.
  */
 + (void)load{
-    Method setObjectForKeySubscript=class_getClassMethod(self, @selector(setObject:forKeyedSubscript:));
-    Method safeSetObjectForKeySubscript=class_getClassMethod(self, @selector(safeSetObject:forKeyedSubscript:));
+    Method setObjectForKeySubscript=class_getInstanceMethod(self, @selector(setObject:forKeyedSubscript:));
+    Method safeSetObjectForKeySubscript=class_getInstanceMethod(self, @selector(safeSetObject:forKeyedSubscript:));
     
-    Method setObjectForKey=class_getClassMethod(self, @selector(setObject:forKey:));
-    Method safeSetObjectForKey=class_getClassMethod(self, @selector(safeSetObject:forKey:));
+    Method setObjectForKey=class_getInstanceMethod(self, @selector(setObject:forKey:));
+    Method safeSetObjectForKey=class_getInstanceMethod(self, @selector(safeSetObject:forKey:));
     
-    Method objectForKey=class_getClassMethod(self, @selector(objectForKey:));
-    Method safeObjectForKey=class_getClassMethod(self, @selector(safeObjectForKey:));
+    Method objectForKey=class_getInstanceMethod(self, @selector(objectForKey:));
+    Method safeObjectForKey=class_getInstanceMethod(self, @selector(safeObjectForKey:));
     
     method_exchangeImplementations(setObjectForKeySubscript, safeSetObjectForKeySubscript);
     method_exchangeImplementations(setObjectForKey, safeSetObjectForKey);

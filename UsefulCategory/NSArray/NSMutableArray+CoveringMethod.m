@@ -14,23 +14,23 @@
  *  自动使用自定义的方法覆盖系统方法,防止崩溃,推荐.
  */
 + (void)load{
-    Method setObjectAtIndexedSubscript =class_getClassMethod(self, @selector(setObject:atIndexedSubscript:));
-    Method safeSetObjectAtIndexedSubscript =class_getClassMethod(self, @selector(safeSetObject:atIndexedSubscript:));
+    Method setObjectAtIndexedSubscript =class_getInstanceMethod(self, @selector(setObject:atIndexedSubscript:));
+    Method safeSetObjectAtIndexedSubscript =class_getInstanceMethod(self, @selector(safeSetObject:atIndexedSubscript:));
     
-    Method addObject=class_getClassMethod(self, @selector(addObject:));
-    Method safeAddObject=class_getClassMethod(self, @selector(safeAddObject:));
+    Method addObject=class_getInstanceMethod(self, @selector(addObject:));
+    Method safeAddObject=class_getInstanceMethod(self, @selector(safeAddObject:));
     
-    Method insertObjectAtIndex=class_getClassMethod(self, @selector(insertObject:atIndex:));
-    Method safeInsertObjectAtIndex=class_getClassMethod(self, @selector(safeInsertObject:atIndex:));
+    Method insertObjectAtIndex=class_getInstanceMethod(self, @selector(insertObject:atIndex:));
+    Method safeInsertObjectAtIndex=class_getInstanceMethod(self, @selector(safeInsertObject:atIndex:));
     
-    Method insertObjectsAtIndexs=class_getClassMethod(self, @selector(insertObjects:atIndexes:));
-    Method safeInsertObjectsAtIndexs=class_getClassMethod(self, @selector(safeInsertObjects:atIndexes:));
+    Method insertObjectsAtIndexs=class_getInstanceMethod(self, @selector(insertObjects:atIndexes:));
+    Method safeInsertObjectsAtIndexs=class_getInstanceMethod(self, @selector(safeInsertObjects:atIndexes:));
     
-    Method removeObjectAtIndex=class_getClassMethod(self, @selector(removeObjectAtIndex:));
-    Method safeRemoveObjectAtIndex=class_getClassMethod(self, @selector(safeRemoveObjectAtIndex:));
+    Method removeObjectAtIndex=class_getInstanceMethod(self, @selector(removeObjectAtIndex:));
+    Method safeRemoveObjectAtIndex=class_getInstanceMethod(self, @selector(safeRemoveObjectAtIndex:));
     
-    Method removeObjectsInRange=class_getClassMethod(self, @selector(removeObjectsInRange:));
-    Method safeRemoveObjectsInRange=class_getClassMethod(self, @selector(safeRemoveObjectsInRange:));
+    Method removeObjectsInRange=class_getInstanceMethod(self, @selector(removeObjectsInRange:));
+    Method safeRemoveObjectsInRange=class_getInstanceMethod(self, @selector(safeRemoveObjectsInRange:));
     
     method_exchangeImplementations(setObjectAtIndexedSubscript, safeSetObjectAtIndexedSubscript);
     method_exchangeImplementations(addObject, safeAddObject);

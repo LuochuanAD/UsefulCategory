@@ -15,14 +15,14 @@
  */
 + (void)load{
     
-    Method objectAtIndexMethod = class_getClassMethod(self, @selector(objectAtIndex:));
-    Method safeobjectAtIndexMethod = class_getClassMethod(self, @selector(safeObjectAtIndex:));
+    Method objectAtIndexMethod = class_getInstanceMethod(self, @selector(objectAtIndex:));
+    Method safeobjectAtIndexMethod = class_getInstanceMethod(self, @selector(safeObjectAtIndex:));
     
-    Method indexOfObjectMethod = class_getClassMethod(self, @selector(indexOfObject:));
-    Method safeIndexOfObjectMethod = class_getClassMethod(self, @selector(safeIndexOfObject:));
+    Method indexOfObjectMethod = class_getInstanceMethod(self, @selector(indexOfObject:));
+    Method safeIndexOfObjectMethod = class_getInstanceMethod(self, @selector(safeIndexOfObject:));
     
-    Method subarrayWithRangeMethod = class_getClassMethod(self, @selector(subarrayWithRange:));
-    Method safeSubarrayWithRangeMethod = class_getClassMethod(self, @selector(safeSubarrayWithRange:));
+    Method subarrayWithRangeMethod = class_getInstanceMethod(self, @selector(subarrayWithRange:));
+    Method safeSubarrayWithRangeMethod = class_getInstanceMethod(self, @selector(safeSubarrayWithRange:));
  
     method_exchangeImplementations(objectAtIndexMethod, safeobjectAtIndexMethod);
     method_exchangeImplementations(indexOfObjectMethod, safeIndexOfObjectMethod);
