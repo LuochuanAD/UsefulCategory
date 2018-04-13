@@ -22,7 +22,7 @@
 		443BB70920804CF6003BAB26 /* NSString+TimeStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6F120804CF5003BAB26 /* NSString+TimeStamp.m */; };
 		443BB70A20804CF6003BAB26 /* UITabBar+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB6F420804CF5003BAB26 /* UITabBar+CustomBadge.m */; };
 		443BB71420805A12003BAB26 /* NSObject+helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB71220805A12003BAB26 /* NSObject+helper.m */; };
-		443BB71920807DC3003BAB26 /* NSObjectSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB71820807DC3003BAB26 /* NSObjectSafe.m */; settings = {COMPILER_FLAGS = "-fon-objc-arc"; }; };
+		443BB71920807DC3003BAB26 /* NSObjectSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 443BB71820807DC3003BAB26 /* NSObjectSafe.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		443BB75C20808B8B003BAB26 /* demoExample.png in Resources */ = {isa = PBXBuildFile; fileRef = 443BB75B20808B8B003BAB26 /* demoExample.png */; };
 /* End PBXBuildFile section */
 
