@@ -1,7 +1,7 @@
 //
 //  NSData+Encryption.h
-//  UsefulClass
-//
+//  UsefulCategory
+//  GitHub地址: https://github.com/LuochuanAD/UsefulCategory
 //  Created by care on 2018/4/10.
 //  Copyright © 2018年 luochuan. All rights reserved.
 //

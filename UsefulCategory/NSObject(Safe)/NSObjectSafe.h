@@ -1,9 +1,9 @@
 //
 //  NSObjectSafe.h
-//  NSObjectSafe
-//
-//  Created by jasenhuang on 15/12/29.
-//  Copyright © 2015年 tencent. All rights reserved.
+//  UsefulCategory
+//  GitHub地址: https://github.com/LuochuanAD/UsefulCategory
+//  Created by care on 2018/4/3.
+//  Copyright © 2018年 luochuan. All rights reserved.
 //
 
 

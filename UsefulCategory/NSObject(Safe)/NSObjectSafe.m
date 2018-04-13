@@ -1,9 +1,9 @@
 //
-//  NSMutableArray+Hook.m
-//  test
-//
-//  Created by jasenhuang on 15/12/21.
-//  Copyright © 2015年 tencent. All rights reserved.
+//  NSObjectSafe.m
+//  UsefulCategory
+//  GitHub地址: https://github.com/LuochuanAD/UsefulCategory
+//  Created by care on 2018/4/3.
+//  Copyright © 2018年 luochuan. All rights reserved.
 //
 
 #import "NSObjectSafe.h"
