@@ -31,15 +31,16 @@
 #define iPhone6_6s_7_8 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
 #define iPhone6p_6sp_7p_8p ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
 #define iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
-#define is_iPhoneX [UIScreen mainScreen].bounds.size.width == 375.0f && [UIScreen mainScreen].bounds.size.height == 812.0f
+
+#define is_iPhoneXSeries ((int)((SCREEN_HEIGHTL/SCREEN_WIDTHL)*100) == 216)?YES:NO
 
 #define ISIPAD ([[UIDevice currentDevice] userInterfaceIdiom]==UIUserInterfaceIdiomPad)
 #define ISIPHONE   ([[UIDevice currentDevice] userInterfaceIdiom]==UIUserInterfaceIdiomPhone)
 /*
  *  TABBARHEIGHT tabbar高度;NAVIGATIONBARHEIGHT 导航栏高度
  */
-#define TABBARHEIGHT (is_iPhoneX?83:49)
-#define NAVIGATIONBARHEIGHT (is_iPhoneX?88:64)
+#define TABBARHEIGHT (is_iPhoneXSeries?83:49)
+#define NAVIGATIONBARHEIGHT (is_iPhoneXSeries?88:64)
 
 /*
  *  ColorHex 16进制颜色(example:ColorHex(0xe5e5e5))
